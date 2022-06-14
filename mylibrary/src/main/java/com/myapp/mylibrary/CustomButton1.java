@@ -32,7 +32,7 @@ public class CustomButton1 extends androidx.appcompat.widget.AppCompatButton {
         super(context, attrs);
         int color1 = Color.parseColor("#AA66CC");
         int color2 = Color.parseColor("#D3D3D3");
-        customView(this,color1,color2);
+        customView(this,Color.GREEN,color2);
 
     }
 
@@ -40,6 +40,6 @@ public class CustomButton1 extends androidx.appcompat.widget.AppCompatButton {
         super(context, attrs, defStyleAttr);
         int color1 = Color.parseColor("#AA66CC");
         int color2 = Color.parseColor("#D3D3D3");
-        customView(this,color1,color2);
+        customView(this,Color.GREEN,color2);
     }
 }

@@ -1,13 +1,14 @@
 package com.myapp.mylibrary;
 
+import android.view.View;
 import android.widget.EditText;
 
 import java.util.ArrayList;
 
 public class AnimationEditText {
 
-    ArrayList<EditText> arrayList;
-    public AnimationEditText(ArrayList<EditText> i_arrEdit){
+    ArrayList<View> arrayList;
+    public AnimationEditText(ArrayList<View> i_arrEdit){
         //arrayList = new ArrayList<>();
         arrayList = i_arrEdit;
         for(int i=0;i<arrayList.size();i++){

@@ -30,9 +30,16 @@ public class CustomButton1 extends androidx.appcompat.widget.AppCompatButton {
 
     public CustomButton1(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
+        int color1 = Color.parseColor("#AA66CC");
+        int color2 = Color.parseColor("#D3D3D3");
+        customView(this,color1,color2);
+
     }
 
     public CustomButton1(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        int color1 = Color.parseColor("#AA66CC");
+        int color2 = Color.parseColor("#D3D3D3");
+        customView(this,color1,color2);
     }
 }

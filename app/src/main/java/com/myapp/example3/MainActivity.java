@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.myapp.mylibrary.MyLib;
+import com.myapp.mylibrary.AnimationEditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MyLib hello = new MyLib("a","b");
+        //AnimationEditText hello = new AnimationEditText("a","b");
     }
 }

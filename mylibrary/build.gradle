@@ -37,8 +37,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation "com.mikepenz:materialdrawer:6.1.2"
-    implementation 'com.mikepenz:iconics-core:2.7.2'
+    /*implementation 'com.mikepenz:iconics-core:2.7.2'
     implementation('com.mikepenz:google-material-typeface:1.2.0.1') {
         transitive = false
-    }
+    }*/
 }

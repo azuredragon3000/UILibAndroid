@@ -16,7 +16,11 @@ import android.os.Environment;
 import android.view.MenuItem;
 
 
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+
+import com.getbase.floatingactionbutton.FloatingActionButton;
 
 import org.apache.commons.io.FileUtils;
 
@@ -235,15 +239,20 @@ public class UtilsApp {
      * @param fabHide FAB button to change
      * @param isHidden true if the app is hidden, false otherwise
      */
-   /* public static void setAppHidden(Context context, FloatingActionButton fabHide, Boolean isHidden) {
+    public static void setAppHidden(Context context, FloatingActionButton fabHide, Boolean isHidden,
+                                    String action_unhide, String action_hide,int res_visibility, int res_off_white) {
         if (isHidden) {
-            fabHide.setTitle(context.getResources().getString(R.string.action_unhide));
-            fabHide.setIcon(R.drawable.ic_visibility_white);
+            //fabHide.setTitle(context.getResources().getString(R.string.action_unhide));
+            //fabHide.setIcon(R.drawable.ic_visibility_white);
+            fabHide.setTitle(action_unhide);
+            fabHide.setIcon(res_visibility);
         } else {
-            fabHide.setTitle(context.getResources().getString(R.string.action_hide));
-            fabHide.setIcon(R.drawable.ic_visibility_off_white);
+            //fabHide.setTitle(context.getResources().getString(R.string.action_hide));
+            //fabHide.setIcon(R.drawable.ic_visibility_off_white);
+            fabHide.setTitle(action_hide);
+            fabHide.setIcon(res_off_white);
         }
-    }*/
+    }
 
     /**
      * Save an app icon to cache folder
@@ -288,7 +297,7 @@ public class UtilsApp {
      * @param appInfo App to get icon
      * @return Drawable with the app icon
      */
-    public static Drawable getIconFromCache(Context context, AppInfo appInfo, int ic_android) {
+    public static Drawable getIconFromCache(Context context, AppInfo appInfo, Drawable ic_android) {
         Drawable res;
 
         try {
@@ -297,20 +306,20 @@ public class UtilsApp {
             res = new BitmapDrawable(context.getResources(), bitmap);
         } catch (Exception e) {
             e.printStackTrace();
-            res = context.getResources().getDrawable(ic_android);
+            res = ic_android; //context.getResources().getDrawable(ic_android);
         }
 
         return res;
     }
 
-    /*public static Boolean extractMLManagerPro(Context context, AppInfo appInfo) {
+    public static Boolean extractMLManagerPro(Context context, AppInfo appInfo,AppPreferences appPreferences, int res_banner) {
         Boolean res = false;
-        File finalFile = new File(getAppFolder().getPath(), getAPKFilename(appInfo) + ".png");
+        File finalFile = new File(getAppFolder(appPreferences).getPath(), getAPKFilename(appInfo,appPreferences) + ".png");
 
         try {
-            File fileUri = new File(context.getCacheDir(), getAPKFilename(appInfo) + ".png");
+            File fileUri = new File(context.getCacheDir(), getAPKFilename(appInfo,appPreferences) + ".png");
             FileOutputStream out = new FileOutputStream(fileUri);
-            Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.banner_troll);
+            Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), res_banner); //R.drawable.banner_troll);
             bitmap.compress(Bitmap.CompressFormat.PNG, 100, out);
             FileUtils.moveFile(fileUri, finalFile);
             res = true;
@@ -321,17 +330,19 @@ public class UtilsApp {
         }
 
         return res;
-    }*/
+    }
 
-   /* public static Boolean checkPermissions(Activity activity) {
+    public static Boolean checkPermissions(Activity activity) {
         Boolean res = false;
         if (ContextCompat.checkSelfPermission(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            activity.requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE}, MY_PERMISSIONS_REQUEST_WRITE_READ);
+            ActivityCompat.requestPermissions(activity,
+                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE}, MY_PERMISSIONS_REQUEST_WRITE_READ);
+
         } else {
             res = true;
         }
 
         return res;
-    }*/
+    }
 
 }

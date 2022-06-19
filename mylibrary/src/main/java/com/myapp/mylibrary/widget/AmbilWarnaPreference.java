@@ -4,9 +4,12 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.preference.Preference;
+
+
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.preference.Preference;
 
 import com.myapp.mylibrary.AmbilWarnaDialog;
 import com.myapp.mylibrary.R;
@@ -24,7 +27,7 @@ public class AmbilWarnaPreference extends Preference {
 		setWidgetLayoutResource(R.layout.ambilwarna_pref_widget);
 	}
 
-	@Override protected void onBindView(View view) {
+	/*@Override protected void onBindView(View view) {
 		super.onBindView(view);
 
 		// Set our custom views inside the layout
@@ -32,7 +35,7 @@ public class AmbilWarnaPreference extends Preference {
 		if (box != null) {
 			box.setBackgroundColor(value);
 		}
-	}
+	}*/
 
 	@Override protected void onClick() {
 		new AmbilWarnaDialog(getContext(), value, supportsAlpha, new AmbilWarnaDialog.OnAmbilWarnaListener() {

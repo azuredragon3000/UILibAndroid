@@ -13,17 +13,17 @@ import android.graphics.Shader.TileMode;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class AmbilWarnaSquare extends View{
+public class CustomSquare1 extends View{
 
     Paint paint;
     Shader luar;
     final float[] color = { 1.f, 1.f, 1.f };
 
-    public AmbilWarnaSquare(Context context, AttributeSet attrs) {
+    public CustomSquare1(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public AmbilWarnaSquare(Context context, AttributeSet attrs, int defStyle) {
+    public CustomSquare1(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 

@@ -15,18 +15,18 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-public class AmbilWarnaDialog {
+public class CustomDialog1 {
     public interface OnAmbilWarnaListener {
-        void onCancel(AmbilWarnaDialog dialog);
+        void onCancel(CustomDialog1 dialog);
 
-        void onOk(AmbilWarnaDialog dialog, int color);
+        void onOk(CustomDialog1 dialog, int color);
     }
 
     final AlertDialog dialog;
     private final boolean supportsAlpha;
     final OnAmbilWarnaListener listener;
     final View viewHue;
-    final AmbilWarnaSquare viewSatVal;
+    final CustomSquare1 viewSatVal;
     final ImageView viewCursor;
     final ImageView viewAlphaCursor;
     final View viewOldColor;
@@ -45,7 +45,7 @@ public class AmbilWarnaDialog {
      * @param color current color
      * @param listener an OnAmbilWarnaListener, allowing you to get back error or OK
      */
-    public AmbilWarnaDialog(final Context context, int color, OnAmbilWarnaListener listener) {
+    public CustomDialog1(final Context context, int color, OnAmbilWarnaListener listener) {
         this(context, color, false, listener);
     }
 
@@ -58,7 +58,7 @@ public class AmbilWarnaDialog {
      * @param listener an OnAmbilWarnaListener, allowing you to get back error or OK
      */
     @SuppressLint("ClickableViewAccessibility")
-    public AmbilWarnaDialog(final Context context, int color, boolean supportsAlpha, OnAmbilWarnaListener listener) {
+    public CustomDialog1(final Context context, int color, boolean supportsAlpha, OnAmbilWarnaListener listener) {
         this.supportsAlpha = supportsAlpha;
         this.listener = listener;
 
@@ -71,7 +71,7 @@ public class AmbilWarnaDialog {
 
         final View view = LayoutInflater.from(context).inflate(R.layout.ambilwarna_dialog, null);
         viewHue = view.findViewById(R.id.ambilwarna_viewHue);
-        viewSatVal = (AmbilWarnaSquare) view.findViewById(R.id.ambilwarna_viewSatBri);
+        viewSatVal = (CustomSquare1) view.findViewById(R.id.ambilwarna_viewSatBri);
         viewCursor = (ImageView) view.findViewById(R.id.ambilwarna_cursor);
         viewOldColor = view.findViewById(R.id.ambilwarna_oldColor);
         viewNewColor = view.findViewById(R.id.ambilwarna_newColor);
@@ -133,11 +133,11 @@ public class AmbilWarnaDialog {
                         y = viewAlphaCheckered.getMeasuredHeight() - 0.001f; // to avoid jumping the cursor from bottom to top.
                     }
                     final int a = Math.round(255.f - ((255.f / viewAlphaCheckered.getMeasuredHeight()) * y));
-                    AmbilWarnaDialog.this.setAlpha(a);
+                    CustomDialog1.this.setAlpha(a);
 
                     // update view
                     moveAlphaCursor();
-                    int col = AmbilWarnaDialog.this.getColor();
+                    int col = CustomDialog1.this.getColor();
                     int c = a << 24 | col & 0x00ffffff;
                     viewNewColor.setBackgroundColor(c);
                     return true;
@@ -177,16 +177,16 @@ public class AmbilWarnaDialog {
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        if (AmbilWarnaDialog.this.listener != null) {
-                            AmbilWarnaDialog.this.listener.onOk(AmbilWarnaDialog.this, getColor());
+                        if (CustomDialog1.this.listener != null) {
+                            CustomDialog1.this.listener.onOk(CustomDialog1.this, getColor());
                         }
                     }
                 })
                 .setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        if (AmbilWarnaDialog.this.listener != null) {
-                            AmbilWarnaDialog.this.listener.onCancel(AmbilWarnaDialog.this);
+                        if (CustomDialog1.this.listener != null) {
+                            CustomDialog1.this.listener.onCancel(CustomDialog1.this);
                         }
                     }
                 })
@@ -194,8 +194,8 @@ public class AmbilWarnaDialog {
                     // if back button is used, call back our listener.
                     @Override
                     public void onCancel(DialogInterface paramDialogInterface) {
-                        if (AmbilWarnaDialog.this.listener != null) {
-                            AmbilWarnaDialog.this.listener.onCancel(AmbilWarnaDialog.this);
+                        if (CustomDialog1.this.listener != null) {
+                            CustomDialog1.this.listener.onCancel(CustomDialog1.this);
                         }
 
                     }
@@ -210,9 +210,9 @@ public class AmbilWarnaDialog {
             @Override
             public void onGlobalLayout() {
                 moveCursor();
-                if (AmbilWarnaDialog.this.supportsAlpha) moveAlphaCursor();
+                if (CustomDialog1.this.supportsAlpha) moveAlphaCursor();
                 moveTarget();
-                if (AmbilWarnaDialog.this.supportsAlpha) updateAlphaView();
+                if (CustomDialog1.this.supportsAlpha) updateAlphaView();
                 view.getViewTreeObserver().removeGlobalOnLayoutListener(this);
             }
         });

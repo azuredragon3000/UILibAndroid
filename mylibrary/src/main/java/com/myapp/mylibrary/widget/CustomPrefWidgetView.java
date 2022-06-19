@@ -7,12 +7,12 @@ import android.graphics.Paint.Style;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class AmbilWarnaPrefWidgetView extends View {
+public class CustomPrefWidgetView extends View {
 	Paint paint;
 	float rectSize;
 	float strokeWidth;
 
-	public AmbilWarnaPrefWidgetView(Context context, AttributeSet attrs) {
+	public CustomPrefWidgetView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		
 		float density = context.getResources().getDisplayMetrics().density;

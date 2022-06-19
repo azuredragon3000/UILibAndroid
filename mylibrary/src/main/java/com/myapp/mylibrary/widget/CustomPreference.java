@@ -11,14 +11,14 @@ import androidx.annotation.NonNull;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import com.myapp.mylibrary.AmbilWarnaDialog;
+import com.myapp.mylibrary.CustomDialog1;
 import com.myapp.mylibrary.R;
 
-public class AmbilWarnaPreference extends Preference {
+public class CustomPreference extends Preference {
 	private final boolean supportsAlpha;
 	int value;
 
-	public AmbilWarnaPreference(Context context, AttributeSet attrs) {
+	public CustomPreference(Context context, AttributeSet attrs) {
 		super(context, attrs);
 
 		final TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.AmbilWarnaPreference);
@@ -37,26 +37,16 @@ public class AmbilWarnaPreference extends Preference {
 		}
 	}
 
-	/*@Override protected void onBindView(View view) {
-		super.onBindView(view);
-
-		// Set our custom views inside the layout
-		final View box = view.findViewById(R.id.ambilwarna_pref_widget_box);
-		if (box != null) {
-			box.setBackgroundColor(value);
-		}
-	}*/
-
 	@Override protected void onClick() {
-		new AmbilWarnaDialog(getContext(), value, supportsAlpha, new AmbilWarnaDialog.OnAmbilWarnaListener() {
-			@Override public void onOk(AmbilWarnaDialog dialog, int color) {
+		new CustomDialog1(getContext(), value, supportsAlpha, new CustomDialog1.OnAmbilWarnaListener() {
+			@Override public void onOk(CustomDialog1 dialog, int color) {
 				if (!callChangeListener(color)) return; // They don't want the value to be set
 				value = color;
 				persistInt(value);
 				notifyChanged();
 			}
 
-			@Override public void onCancel(AmbilWarnaDialog dialog) {
+			@Override public void onCancel(CustomDialog1 dialog) {
 				// nothing to do
 			}
 		}).show();
@@ -82,6 +72,7 @@ public class AmbilWarnaPreference extends Preference {
 			persistInt(value);
 		}
 	}
+
 
 	/*
 	 * Suppose a client uses this preference type without persisting. We

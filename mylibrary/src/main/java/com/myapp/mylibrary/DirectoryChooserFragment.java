@@ -170,7 +170,7 @@ public class DirectoryChooserFragment extends DialogFragment {
                     @Override
                     public void apply(final OnFragmentInteractionListener listener) {
                         listener.onCancelChooser();
-                        dismiss();
+                        getDialog().dismiss();
                     }
                 });
             }
@@ -483,7 +483,7 @@ public class DirectoryChooserFragment extends DialogFragment {
                 @Override
                 public void apply(final OnFragmentInteractionListener f) {
                     f.onSelectDirectory(mSelectedDir.getAbsolutePath());
-                    dismiss();
+                    getDialog().dismiss();
                 }
             });
         } else {
@@ -491,7 +491,7 @@ public class DirectoryChooserFragment extends DialogFragment {
                 @Override
                 public void apply(final OnFragmentInteractionListener f) {
                     f.onCancelChooser();
-                    dismiss();
+                    getDialog().dismiss();
                 }
             });
         }

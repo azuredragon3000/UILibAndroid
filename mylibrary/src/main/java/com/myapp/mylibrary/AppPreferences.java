@@ -2,7 +2,9 @@ package com.myapp.mylibrary;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
+
+
+import androidx.preference.PreferenceManager;
 
 import java.util.HashSet;
 import java.util.Set;

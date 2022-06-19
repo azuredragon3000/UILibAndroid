@@ -1,5 +1,6 @@
 package com.myapp.mylibrary;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -56,6 +57,7 @@ public class AmbilWarnaDialog {
      * @param supportsAlpha whether alpha/transparency controls are enabled
      * @param listener an OnAmbilWarnaListener, allowing you to get back error or OK
      */
+    @SuppressLint("ClickableViewAccessibility")
     public AmbilWarnaDialog(final Context context, int color, boolean supportsAlpha, OnAmbilWarnaListener listener) {
         this.supportsAlpha = supportsAlpha;
         this.listener = listener;

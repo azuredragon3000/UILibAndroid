@@ -157,6 +157,7 @@ public class DirectoryChooserFragment extends DialogFragment {
             public void onClick(final View v) {
                 if (isValidFile(mSelectedDir)) {
                     returnSelectedFolder();
+                    //dismiss();
                 }
             }
         });
@@ -169,6 +170,7 @@ public class DirectoryChooserFragment extends DialogFragment {
                     @Override
                     public void apply(final OnFragmentInteractionListener listener) {
                         listener.onCancelChooser();
+                        dismiss();
                     }
                 });
             }
@@ -481,6 +483,7 @@ public class DirectoryChooserFragment extends DialogFragment {
                 @Override
                 public void apply(final OnFragmentInteractionListener f) {
                     f.onSelectDirectory(mSelectedDir.getAbsolutePath());
+                    dismiss();
                 }
             });
         } else {
@@ -488,6 +491,7 @@ public class DirectoryChooserFragment extends DialogFragment {
                 @Override
                 public void apply(final OnFragmentInteractionListener f) {
                     f.onCancelChooser();
+                    dismiss();
                 }
             });
         }

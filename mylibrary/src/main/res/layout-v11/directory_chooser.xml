@@ -40,9 +40,8 @@
             android:id="@+id/btnConfirm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
             android:layout_toRightOf="@id/horizontalDivider"
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/confirm_label" />

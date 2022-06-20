@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DialogFragment;
 import android.app.Fragment;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -157,7 +158,6 @@ public class DirectoryChooserFragment extends DialogFragment {
             public void onClick(final View v) {
                 if (isValidFile(mSelectedDir)) {
                     returnSelectedFolder();
-                    //dismiss();
                 }
             }
         });
@@ -256,11 +256,15 @@ public class DirectoryChooserFragment extends DialogFragment {
     }
 
     @Override
-    public void onAttach(final Activity activity) {
-        super.onAttach(activity);
+    public void onAttach(final Context context) {
+        super.onAttach(context);
+    }
 
-        if (activity instanceof OnFragmentInteractionListener) {
-            mListener = Option.some((OnFragmentInteractionListener) activity);
+    @Override
+    public void onStart() {
+        super.onStart();
+        if (getActivity() instanceof OnFragmentInteractionListener) {
+            mListener = Option.some((OnFragmentInteractionListener) getActivity());
         } else {
             Fragment owner = getTargetFragment();
             if (owner instanceof OnFragmentInteractionListener) {

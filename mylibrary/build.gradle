@@ -35,6 +35,9 @@ dependencies {
     implementation 'androidx.preference:preference:1.2.0'
 
     //implementation 'com.github.guardian:Option:e933c3a31d'
+
+    implementation 'com.nineoldandroids:library:2.4.+'
+
     implementation 'commons-io:commons-io:2.4'
     implementation 'com.getbase:floatingactionbutton:1.10.1'
 

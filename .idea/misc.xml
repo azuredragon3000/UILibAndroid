@@ -8,8 +8,13 @@
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout-v11/directory_chooser.xml" value="0.12916666666666668" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/ambilwarna_dialog.xml" value="0.264" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/ambilwarna_pref_widget.xml" value="0.264" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/color_selector.xml" value="0.2" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/dialog.xml" value="0.2" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/directory_chooser.xml" value="0.264" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/directory_chooser_activity.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/number_indicator_spinner.xml" value="0.12135416666666667" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/progress_dialog.xml" value="0.12135416666666667" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/snackbar.xml" value="0.12135416666666667" />
       </map>
     </option>
   </component>

@@ -58,6 +58,9 @@ public class UtilsApp {
         File initialFile = new File(appInfo.getSource());
         File finalFile = getOutputFilename(appInfo,appPreferences);
 
+        boolean ck = initialFile.exists();
+        boolean ck2 = finalFile.exists();
+
         try {
             FileUtils.copyFile(initialFile, finalFile);
             res = true;

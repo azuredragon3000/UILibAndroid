@@ -10,10 +10,11 @@ public class AppInfo implements Serializable {
     private String version;
     private String source;
     private String data;
-    private Drawable icon;
+    //private Drawable icon;
+    private String icon;
     private Boolean system;
 
-    public AppInfo(String name, String apk, String version, String source, String data, Drawable icon, Boolean isSystem) {
+    public AppInfo(String name, String apk, String version, String source, String data, String icon, Boolean isSystem) {
         this.name = name;
         this.apk = apk;
         this.version = version;
@@ -55,11 +56,11 @@ public class AppInfo implements Serializable {
         return data;
     }
 
-    public Drawable getIcon() {
+    public String getIcon() {
         return icon;
     }
 
-    public void setIcon(Drawable icon) {
+    public void setIcon(String icon) {
         this.icon = icon;
     }
 

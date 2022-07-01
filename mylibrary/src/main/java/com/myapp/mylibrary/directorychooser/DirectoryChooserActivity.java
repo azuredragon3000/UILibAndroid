@@ -1,4 +1,4 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.directorychooser;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.myapp.mylibrary.R;
 
 /**
  * Let's the user choose a directory on the storage device. The selected folder

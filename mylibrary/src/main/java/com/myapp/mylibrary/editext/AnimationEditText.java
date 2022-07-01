@@ -1,7 +1,6 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.editext;
 
 import android.view.View;
-import android.widget.EditText;
 
 import java.util.ArrayList;
 
@@ -9,7 +8,6 @@ public class AnimationEditText {
 
     ArrayList<View> arrayList;
     public AnimationEditText(ArrayList<View> i_arrEdit){
-        //arrayList = new ArrayList<>();
         arrayList = i_arrEdit;
         for(int i=0;i<arrayList.size();i++){
             arrayList.get(i).setTranslationX(800);

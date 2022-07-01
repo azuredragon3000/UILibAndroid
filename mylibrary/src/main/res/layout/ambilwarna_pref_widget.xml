@@ -15,7 +15,7 @@
             android:src="@drawable/ambilwarna_alphacheckered_tiled"/>
 
 
-    <com.myapp.mylibrary.widget.CustomPrefWidgetView
+    <com.myapp.mylibrary.preference.CustomPrefWidgetView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/ambilwarna_pref_widget_box"

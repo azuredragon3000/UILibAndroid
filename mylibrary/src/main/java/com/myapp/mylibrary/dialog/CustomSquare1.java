@@ -1,4 +1,4 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.dialog;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

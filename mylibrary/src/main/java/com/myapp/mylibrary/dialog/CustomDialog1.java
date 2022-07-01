@@ -1,4 +1,4 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.dialog;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -14,6 +14,8 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+
+import com.myapp.mylibrary.R;
 
 public class CustomDialog1 {
     public interface OnAmbilWarnaListener {

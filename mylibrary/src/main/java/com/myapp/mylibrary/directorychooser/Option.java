@@ -1,4 +1,4 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.directorychooser;
 
 import java.util.Collections;
 import java.util.List;

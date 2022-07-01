@@ -1,4 +1,4 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.directorychooser;
 
 import android.Manifest;
 import android.app.Activity;
@@ -18,9 +18,10 @@ import android.view.MenuItem;
 
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.getbase.floatingactionbutton.FloatingActionButton;
+import com.myapp.mylibrary.preference.AppPreferences;
+import com.myapp.mylibrary.appinfo.AppInfo;
 
 import org.apache.commons.io.FileUtils;
 
@@ -52,7 +53,7 @@ public class UtilsApp {
     }
 
 
-    public static Boolean copyFile(AppInfo appInfo,AppPreferences appPreferences) {
+    public static Boolean copyFile(AppInfo appInfo, AppPreferences appPreferences) {
         Boolean res = false;
 
         File initialFile = new File(appInfo.getSource());

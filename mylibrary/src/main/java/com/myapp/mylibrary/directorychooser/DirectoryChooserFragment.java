@@ -1,4 +1,4 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.directorychooser;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -37,6 +37,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+
+import com.myapp.mylibrary.R;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -1,6 +1,4 @@
-package com.myapp.mylibrary;
-
-import android.graphics.drawable.Drawable;
+package com.myapp.mylibrary.appinfo;
 
 import java.io.Serializable;
 
@@ -10,7 +8,6 @@ public class AppInfo implements Serializable {
     private String version;
     private String source;
     private String data;
-    //private Drawable icon;
     private String icon;
     private Boolean system;
 

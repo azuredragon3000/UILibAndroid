@@ -1,4 +1,4 @@
-package com.myapp.mylibrary.widget;
+package com.myapp.mylibrary.preference;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import com.myapp.mylibrary.CustomDialog1;
+import com.myapp.mylibrary.dialog.CustomDialog1;
 import com.myapp.mylibrary.R;
 
 public class CustomPreference extends Preference {

@@ -1,4 +1,4 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.preference;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -44,16 +44,18 @@ public class AppPreferences {
         editor.commit();
     }
 
+    //context.getResources().getColor(R.color.primary)
     public int getPrimaryColorPref(int primary) {
-        return sharedPreferences.getInt(KeyPrimaryColor, primary);//context.getResources().getColor(R.color.primary)
+        return sharedPreferences.getInt(KeyPrimaryColor, primary);
     }
     public void setPrimaryColorPref(Integer res) {
         editor.putInt(KeyPrimaryColor, res);
         editor.commit();
     }
 
+    //context.getResources().getColor(R.color.fab)
     public int getFABColorPref(int fab) {
-        return sharedPreferences.getInt(KeyFABColor,fab);//context.getResources().getColor(R.color.fab)
+        return sharedPreferences.getInt(KeyFABColor,fab);
 
     }
     public void setFABColorPref(Integer res) {
@@ -93,8 +95,9 @@ public class AppPreferences {
         editor.commit();
     }
 
+    //UtilsApp.getDefaultAppFolder().getPath()
     public String getCustomPath(String path) {
-        return sharedPreferences.getString(KeyCustomPath,path);//UtilsApp.getDefaultAppFolder().getPath()
+        return sharedPreferences.getString(KeyCustomPath,path);
     }
 
     public void setCustomPath(String path) {

@@ -57,9 +57,9 @@ Slider and Switch
 Dialog Scroll  
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/scroll_dialog.png" width="200" height="200" />  
 ProgressDialog  
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/progress_dialog.png" width="200" height="200" />  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/progress_dialog.png" width="200" height="50" />  
 SnackBar  
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/snackbar.png" width="200" height="200" />  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/snackbar.png" width="200" height="50" />  
   
 other custom button style lib  
 https://github.com/Bearded-Hen/Android-Bootstrap/wiki  

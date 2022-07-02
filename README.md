@@ -2,8 +2,7 @@
 
 object define in this lib
 
-AnimationEditText: object help animate Editext (or view) ( use for Login activity )
-AppInfo: object hold information application  
+
 AppPreferences: object  
 CustomeButton1: custom button  
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/custombutton1.png" width="200" height="50" />  
@@ -13,7 +12,17 @@ CustomDialog1: custom dialog, color selector
 
 CustomEditext1: style Editext  
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/customeditext.png" width="200" height="50" />  
-
+AnimationEditText: object help animate Editext (or view) ( use for Login activity )
+AppInfo: object hold information application  
+we can using this object to animate views  
+imeOption for editext: when user click enter edit close android:imeOptions="actionDone"   
+singleline: only for oneline in editext  
+  
+below scrollview is still is viewgroup..  
+so below scrollview should be linear or relative layout ....  
+   
+  
+  
 Custom ButtonFloat and ButtonFloatSmall  
 ![Alt Text](https://github.com/azuredragon3000/UILibAndroid/blob/master/image/flatButton.gif)
 

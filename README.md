@@ -14,7 +14,9 @@ CustomDialog1: custom dialog, color selector
 
 CustomEditext1: style Editext  
 
- 
+Custom ButtonFloat  
+ButtonFloatSmall  
+![Alt Text](https://github.com/azuredragon3000/UILibAndroid/blob/master/image/flatButton.gif)
 
 
 DiectoryChooserActivity: Let's the user choose a directory on the storage device. The selected folder  
@@ -24,8 +26,8 @@ DirectoryChooserFragment: helper for DiectoryChooserActivity
   
 Button: abstract layer use to build custom button  
 ButtonFlat  
-ButtonFloat  
-ButtonFloatSmall  
+
+  
 ButtonIcon  
 ButtonRectangle  
 Card  

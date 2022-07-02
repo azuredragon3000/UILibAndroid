@@ -1,7 +1,7 @@
 # UILibAndroid
 
-object define in this lib
-private object  
+Object define in this lib
+Private object  
 AppInfo: object hold information application - use for ML project  
 AppPreferences: object using in ML project - explain later  
 UtilsApp: object using in ML project - explain later    
@@ -40,23 +40,31 @@ Card  - unused
 LayoutRipple - unused  
 CustomView - unused  
 ScrollView - unused  
-  
-Checkbox  
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/checkbox.png" width="200" height="200" />  
-  
 ProgressBarCircularIndeterminate  
 ProgressBarDeterminate  
 ProgressBarIndeterminate  
 ProgressBarIndeterminateDeterminate  
+
+ColorSelector  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/coloselector.png" width="200" height="200" />  
+  
+Checkbox  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/checkbox.png" width="200" height="200" />  
   
 Slider and Switch  
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/switch.png" width="200" height="200" />  
   
+Dialog Scroll  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/scroll_dialog.png" width="200" height="200" />  
+ProgressDialog  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/progress_dialog.png" width="200" height="200" />  
+SnackBar  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/snackbar.png" width="200" height="200" />  
+  
 other custom button style lib  
 https://github.com/Bearded-Hen/Android-Bootstrap/wiki  
   
-some external library :  
-  
+Some external library :  
 androidx.preference:preference:1.2.0  
 com.nineoldandroids:library:2.4.+  
 commons-io:commons-io:2.4  

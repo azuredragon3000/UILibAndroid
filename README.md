@@ -37,12 +37,12 @@ ButtonFlat  - unused
 ButtonIcon    - unused  
 ButtonRectangle  - unused    
 Card  - unused  
-LayoutRipple - unsed
-CustomView  
-ScrollView  
+LayoutRipple - unused  
+CustomView - unused  
+ScrollView - unused  
   
 Checkbox  
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/checkbox.png" width="200" height="50" />  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/checkbox.png" width="200" height="200" />  
   
 ProgressBarCircularIndeterminate  
 ProgressBarDeterminate  
@@ -50,7 +50,7 @@ ProgressBarIndeterminate
 ProgressBarIndeterminateDeterminate  
   
 Slider and Switch 
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/switch.png" width="200" height="50" />  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/switch.png" width="200" height="200" />  
   
 other custom button style lib  
 https://github.com/Bearded-Hen/Android-Bootstrap/wiki  

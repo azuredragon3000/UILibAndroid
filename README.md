@@ -4,15 +4,17 @@ object define in this lib
 private object  
 AppInfo: object hold information application - use for ML project  
 AppPreferences: object using in ML project - explain later  
+UtilsApp: object using in ML project - explain later    
   
 CustomeButton1: custom button  
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/custombutton1.png" width="200" height="50" />  
-
+  
 CustomDialog1: custom dialog, color selector  
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/customdialog1.png" width="200" height="200" />  
-
+  
 CustomEditext1: style Editext  
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/customeditext.png" width="200" height="50" />  
+  
 AnimationEditText: object help animate Editext (or view) ( use for Login activity )  
 ![Alt Text](https://github.com/azuredragon3000/UILibAndroid/blob/master/image/editext.gif)
 we can using this object to animate views  
@@ -21,42 +23,38 @@ singleline: only for oneline in editext
   
 below scrollview is still is viewgroup..  
 so below scrollview should be linear or relative layout ....  
-   
-  
   
 Custom ButtonFloat and ButtonFloatSmall  
 ![Alt Text](https://github.com/azuredragon3000/UILibAndroid/blob/master/image/flatButton.gif)
-
-
+  
 DiectoryChooserActivity: Let's the user choose a directory on the storage device. The selected folder  
 will be sent back to the starting activity as an activity result  
 DirectoryChooserConfig: abstract class help class DiectoryChooserActivity  
 DirectoryChooserFragment: helper for DiectoryChooserActivity  
   
 Button: abstract layer use to build custom button  
-ButtonFlat  
-
-  
-ButtonIcon  
-ButtonRectangle  
-Card  
-Checkbox  
+ButtonFlat  - unused  
+ButtonIcon    - unused  
+ButtonRectangle  - unused    
+Card  - unused  
+LayoutRipple - unsed
 CustomView  
-LayoutRipple  
+ScrollView  
+  
+Checkbox  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/checkbox.png" width="200" height="50" />  
+  
 ProgressBarCircularIndeterminate  
 ProgressBarDeterminate  
 ProgressBarIndeterminate  
 ProgressBarIndeterminateDeterminate  
-ScrollView  
-Slider  
-Switch  
-UtilsApp  
   
-  
+Slider and Switch 
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/switch.png" width="200" height="50" />  
   
 other custom button style lib  
 https://github.com/Bearded-Hen/Android-Bootstrap/wiki  
-
+  
 some external library :  
   
 androidx.preference:preference:1.2.0  

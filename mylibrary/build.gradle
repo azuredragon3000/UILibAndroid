@@ -34,8 +34,9 @@ dependencies {
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.preference:preference:1.2.0'
 
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     //implementation 'com.github.guardian:Option:e933c3a31d'
-
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
     implementation 'com.nineoldandroids:library:2.4.+'
 
     implementation 'commons-io:commons-io:2.4'

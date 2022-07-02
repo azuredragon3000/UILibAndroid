@@ -12,7 +12,7 @@ CustomDialog1: custom dialog, color selector
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/customdialog1.png" width="200" height="200" />  
 
 CustomEditext1: style Editext  
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/customeditext.png" width="200" height="200" />  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/customeditext.png" width="200" height="50" />  
 
 Custom ButtonFloat and ButtonFloatSmall  
 ![Alt Text](https://github.com/azuredragon3000/UILibAndroid/blob/master/image/flatButton.gif)

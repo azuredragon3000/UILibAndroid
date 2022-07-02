@@ -49,10 +49,10 @@ ColorSelector
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/coloselector.png" width="200" height="200" />  
   
 Checkbox  
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/checkbox.png" width="200" height="200" />  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/checkbox.png" width="100" height="100" />  
   
 Slider and Switch  
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/switch.png" width="200" height="200" />  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/switch.png" width="100" height="100" />  
   
 Dialog Scroll  
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/scroll_dialog.png" width="200" height="200" />  

@@ -18,9 +18,10 @@ import android.widget.RelativeLayout;
 import com.myapp.mylibrary.R;
 
 public class CustomDialog1 {
+
+    /* using interface to know when onCancel when onOK click*/
     public interface OnAmbilWarnaListener {
         void onCancel(CustomDialog1 dialog);
-
         void onOk(CustomDialog1 dialog, int color);
     }
 

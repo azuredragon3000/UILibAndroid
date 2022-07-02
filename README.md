@@ -5,7 +5,7 @@ object define in this lib
 AnimationEditText: object help animate Editext (or view) ( use for Login activity )
 AppInfo: object hold information application  
 AppPreferences: object  
-CustomeButton1: style button object  
+CustomeButton1: custom button 
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/custombutton1.png" width="200" height="50" />
 
 CustomDialog1: style Dialog  

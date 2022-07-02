@@ -1,2 +1,2 @@
 include ':mylibrary'
-rootProject.name = "example3"
+rootProject.name = "UILib"

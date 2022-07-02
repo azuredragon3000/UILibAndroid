@@ -1,4 +1,4 @@
-package com.myapp.example3;
+package com.myapp.UILib;
 
 import org.junit.Test;
 

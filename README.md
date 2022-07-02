@@ -6,10 +6,14 @@ AnimationEditText: object help animate Editext (or view) ( use for Login activit
 AppInfo: object hold information application  
 AppPreferences: object  
 CustomeButton1: style button object  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/custombutton1.png" width="200" height="400" />
+
 CustomDialog1: style Dialog  
 CustomEditext1: style Editext  
+
 CustomeSquare1: style square  
-  
+
+
 DiectoryChooserActivity: Let's the user choose a directory on the storage device. The selected folder  
 will be sent back to the starting activity as an activity result  
 DirectoryChooserConfig: abstract class help class DiectoryChooserActivity  

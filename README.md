@@ -9,7 +9,7 @@ CustomeButton1: custom button
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/custombutton1.png" width="200" height="50" />  
 
 CustomDialog1: custom dialog, color selector  
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/customdialog1.png" width="200" height="50" />  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/customdialog1.png" width="200" height="200" />  
 
 
 CustomEditext1: style Editext  

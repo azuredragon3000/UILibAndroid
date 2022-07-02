@@ -15,6 +15,7 @@
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/number_indicator_spinner.xml" value="0.12135416666666667" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/progress_dialog.xml" value="0.12135416666666667" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/snackbar.xml" value="0.12135416666666667" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/drawable-ldpi/edit_text_bg.xml" value="0.166" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/drawable/ambilwarna_alphacheckered_tiled.xml" value="0.124" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/drawable/background_button_float.xml" value="0.254" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/drawable/background_button_rectangle.xml" value="0.254" />
@@ -25,6 +26,8 @@
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/drawable/background_switch_ball_uncheck.xml" value="0.254" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/drawable/background_transparent.xml" value="0.254" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/drawable/borderless_button.xml" value="0.254" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/drawable/edit_text_bg.xml" value="0.166" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/drawable/edit_text_bg2.xml" value="0.166" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/layout-land/ambilwarna_dialog.xml" value="0.2711711711711712" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/layout/activity_login.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/layout/ambilwarna_dialog.xml" value="0.25416666666666665" />
@@ -34,7 +37,7 @@
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/layout/dialog_new_folder.xml" value="0.15677083333333333" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/layout/login_tab_fragment.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/layout/signup_tab_fragment.xml" value="0.11302083333333333" />
-        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/menu/directory_chooser.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid2/mylibrary/src/main/res/menu/directory_chooser.xml" value="0.2" />
       </map>
     </option>
   </component>

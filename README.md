@@ -49,7 +49,7 @@ ProgressBarDeterminate
 ProgressBarIndeterminate  
 ProgressBarIndeterminateDeterminate  
   
-Slider and Switch 
+Slider and Switch  
 <img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/switch.png" width="200" height="200" />  
   
 other custom button style lib  

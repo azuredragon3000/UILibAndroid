@@ -5,13 +5,16 @@ object define in this lib
 AnimationEditText: object help animate Editext (or view) ( use for Login activity )
 AppInfo: object hold information application  
 AppPreferences: object  
-CustomeButton1: custom button 
-<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/custombutton1.png" width="200" height="50" />
+CustomeButton1: custom button  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/custombutton1.png" width="200" height="50" />  
 
-CustomDialog1: style Dialog  
+CustomDialog1: custom dialog, color selector  
+<img src="https://github.com/azuredragon3000/UILibAndroid/blob/master/image/customdialog1.png" width="200" height="50" />  
+
+
 CustomEditext1: style Editext  
 
-CustomeSquare1: style square  
+ 
 
 
 DiectoryChooserActivity: Let's the user choose a directory on the storage device. The selected folder  

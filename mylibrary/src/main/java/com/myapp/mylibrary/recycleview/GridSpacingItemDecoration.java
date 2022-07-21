@@ -1,4 +1,4 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.recycleview;
 
 import android.graphics.Rect;
 import android.view.View;

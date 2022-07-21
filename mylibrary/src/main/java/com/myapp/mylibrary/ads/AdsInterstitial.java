@@ -1,4 +1,4 @@
-package com.myapp.mylibrary;
+package com.myapp.mylibrary.ads;
 
 import android.app.Activity;
 import android.content.Context;

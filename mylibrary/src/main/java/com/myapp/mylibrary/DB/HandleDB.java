@@ -17,7 +17,7 @@ public class HandleDB extends SQLiteOpenHelper {
     public  String DB_PATH;
     public  String DATABASE_NAME;
 
-    HandleDB(Context context, String DB_PATH, String DATABASE_NAME) {
+    public HandleDB(Context context, String DB_PATH, String DATABASE_NAME) {
         super(context, DATABASE_NAME, null, 1);
         this.DB_PATH = DB_PATH;
         this.DATABASE_NAME = DATABASE_NAME;

@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -22,12 +23,15 @@ public class HandleDB extends SQLiteOpenHelper {
         this.DB_PATH = DB_PATH;
         this.DATABASE_NAME = DATABASE_NAME;
         this.mContext = context;
-        this.getReadableDatabase();
 
-        if (coppyDatabase(context)) {
-            Log.d("DATABASE_NAME", DATABASE_NAME+": coppy success");
-        } else {
-            Log.d("DATABASE_NAME", DATABASE_NAME+": coppy fail");
+        File database = context.getDatabasePath(DATABASE_NAME);
+        if (!database.exists()) {
+            this.getReadableDatabase();
+            if (coppyDatabase(context)) {
+                Log.d("DATABASE_NAME", DATABASE_NAME + ": coppy success");
+            } else {
+                Log.d("DATABASE_NAME", DATABASE_NAME + ": coppy fail");
+            }
         }
     }
 

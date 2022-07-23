@@ -35,6 +35,10 @@ public class HandleDB extends SQLiteOpenHelper {
         }
     }
 
+    @Override
+    public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.setVersion(oldVersion);
+    }
 
     public void openDatabase() {
         String dbPath = mContext.getDatabasePath(DATABASE_NAME).getPath();

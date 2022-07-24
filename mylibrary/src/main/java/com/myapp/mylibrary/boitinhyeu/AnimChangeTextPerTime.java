@@ -13,7 +13,7 @@ public class AnimChangeTextPerTime {
         this.animChangeTextPerTime = animChangeTextPerTime;
         mHandler = new Handler();
     }
-    Runnable mStatusChecker = new Runnable() {
+    public Runnable mStatusChecker = new Runnable() {
         @SuppressLint("SetTextI18n")
         @Override
         public void run() {

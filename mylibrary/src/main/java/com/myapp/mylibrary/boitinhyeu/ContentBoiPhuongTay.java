@@ -3,12 +3,12 @@ package com.myapp.mylibrary.boitinhyeu;
 
 public class ContentBoiPhuongTay {
 
-    com.myapp.lovetest.boitinhyeu.data.DatabaseBoiTinhYeuCHD databaseCungHoangDao;
-    public ContentBoiPhuongTay( com.myapp.lovetest.boitinhyeu.data.DatabaseBoiTinhYeuCHD databaseCungHoangDao){
-        this.databaseCungHoangDao = databaseCungHoangDao;
+    //DatabaseBoiTinhYeuCHD databaseCungHoangDao;
+    public ContentBoiPhuongTay( ){
+        //this.databaseCungHoangDao = databaseCungHoangDao;
     }
 
-    public String getCHD(String fulldate){
+    public String getCHD(String fulldate, DatabaseBoiTinhYeuCHD databaseCungHoangDao){
         String dtnam = fulldate.split(":")[0];
         String dtnu = fulldate.split(":")[1];
 

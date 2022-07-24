@@ -4,10 +4,10 @@ import java.util.List;
 
 public class ContentBoiPhuongDong {
 
-    DatabaseBoiTinhYeuPD databaseBoiPhuongDong;
+    //DatabaseBoiTinhYeuPD databaseBoiPhuongDong;
     public String getPD(String fulldate,DatabaseBoiTinhYeuPD databaseBoiPhuongDong
     ,List<ModelCungMang> cungmang,UserPD userNam, UserPD userNu) {
-        this.databaseBoiPhuongDong = databaseBoiPhuongDong;
+        //this.databaseBoiPhuongDong = databaseBoiPhuongDong;
         String dtnam = fulldate.split(":")[0];
         int stdatenam = Integer.parseInt(dtnam.split("-")[0]);
         int stmonnam = Integer.parseInt(dtnam.split("-")[1]);

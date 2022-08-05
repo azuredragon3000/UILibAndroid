@@ -1,5 +1,5 @@
 # UILibAndroid
-
+Cursor and SimpleCursorAdapter
 https://android-developers.googleblog.com/2013/10/getting-your-sms-apps-ready-for-kitkat.html  
 
 Object define in this lib

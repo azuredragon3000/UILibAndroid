@@ -1,6 +1,7 @@
 # UILibAndroid
-Cursor and SimpleCursorAdapter
+Cursor and SimpleCursorAdapter  
 https://android-developers.googleblog.com/2013/10/getting-your-sms-apps-ready-for-kitkat.html  
+https://developer.android.com/training/id-auth/authenticate.html  
 
 Object define in this lib
 Private object  

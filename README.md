@@ -1,5 +1,7 @@
 # UILibAndroid
 
+https://android-developers.googleblog.com/2013/10/getting-your-sms-apps-ready-for-kitkat.html  
+
 Object define in this lib
 Private object  
 AppInfo: object hold information application - use for ML project  

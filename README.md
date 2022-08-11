@@ -12,7 +12,7 @@ learn api
 control google api v3  
 control google admod api  
 
-
+comedown and plan and just do it  
 
 Cursor and SimpleCursorAdapter  
 https://android-developers.googleblog.com/2013/10/getting-your-sms-apps-ready-for-kitkat.html  

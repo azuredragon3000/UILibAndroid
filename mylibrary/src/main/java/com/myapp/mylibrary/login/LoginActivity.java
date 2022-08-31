@@ -1,4 +1,4 @@
-package com.myapp.mylibrary.act;
+package com.myapp.mylibrary.login;
 
 import android.os.Bundle;
 import android.widget.Button;

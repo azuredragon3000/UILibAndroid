@@ -24,7 +24,7 @@ public class ActivityNgonTinh extends AppCompatActivity {
     List<ModelDanhNgon> ngonList = new ArrayList<>();
     ActivityNgontinhBinding binding;
 
-    public  String DB_PATH= "/data/data/com.myapp.mylibrary/databases/";
+    public  String DB_PATH= "/data/data/com.myapp.lovetest_azuredragon3000/databases/";
     public  String DATABASE_BOIPHUONGDONG = "datatonghop.db";
     public  String DATABASE_NAMSINH = "tuvitrondoi.sqlite";
     public  String DATABASE_BOITINHYEUPD = "boiphuongdong_bty.db";

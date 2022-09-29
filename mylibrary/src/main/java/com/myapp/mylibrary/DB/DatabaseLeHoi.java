@@ -28,15 +28,15 @@ public class DatabaseLeHoi extends HandleDB {
         return INSTANCE;
     }
 
-    public List<NgayLe> getNgayLe(){
-        List<NgayLe> list = new ArrayList<>();
+    public List<LeHoi> getLeHoi(){
+        List<LeHoi> list = new ArrayList<>();
         openDatabase();
         String strQuery = "SELECT * FROM "+TABLE_LE_HOI;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(strQuery,null);
         if(cursor.moveToFirst()){
             do{
-                list.add(new NgayLe(cursor.getString(0),cursor.getString(1),cursor.getString(2)));
+                list.add(new LeHoi(cursor.getInt(0),cursor.getString(1),cursor.getString(2)));
             }while(cursor.moveToNext());
         }
         cursor.close();

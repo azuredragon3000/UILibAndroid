@@ -24,14 +24,27 @@ public class HandleDB extends SQLiteOpenHelper {
         this.DATABASE_NAME = DATABASE_NAME;
         this.mContext = context;
 
-        File database = context.getDatabasePath(DATABASE_NAME);
-        if (!database.exists()) {
-            this.getReadableDatabase();
-            if (coppyDatabase(context)) {
-                Log.d("DATABASE_NAME", DATABASE_NAME + ": coppy success");
-            } else {
-                Log.d("DATABASE_NAME", DATABASE_NAME + ": coppy fail");
+
+        File database = null;
+        try {
+            database = context.getDatabasePath(DATABASE_NAME);
+            if (!database.exists()) {
+                this.getReadableDatabase();
+                if (coppyDatabase(context)) {
+                    Log.d("DATABASE_NAME", DATABASE_NAME + ": coppy success");
+                } else {
+                    Log.d("DATABASE_NAME", DATABASE_NAME + ": coppy fail");
+                }
             }
+        }catch (Exception e){
+            //if (!database.exists()) {
+                this.getReadableDatabase();
+                if (coppyDatabase(context)) {
+                    Log.d("DATABASE_NAME", DATABASE_NAME + ": coppy success");
+                } else {
+                    Log.d("DATABASE_NAME", DATABASE_NAME + ": coppy fail");
+                }
+            //}
         }
     }
 

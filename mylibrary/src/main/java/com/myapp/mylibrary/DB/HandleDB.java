@@ -38,7 +38,7 @@ public class HandleDB extends SQLiteOpenHelper {
             }
         }catch (Exception e){
             //if (!database.exists()) {
-                this.getReadableDatabase();
+                //this.getReadableDatabase();
                 if (coppyDatabase(context)) {
                     Log.d("DATABASE_NAME", DATABASE_NAME + ": coppy success");
                 } else {

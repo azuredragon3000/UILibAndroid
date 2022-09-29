@@ -1,6 +1,5 @@
 package com.myapp.mylibrary.DB;
 
-
 import android.app.Application;
 import android.content.Context;
 import android.database.Cursor;

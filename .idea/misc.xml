@@ -7,6 +7,11 @@
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1115" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable-v24/vie_bg.xml" value="0.1115" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable/ambilwarna_alphacheckered_tiled.xml" value="0.1025" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable/background_transparent.xml" value="0.1225" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable/borderless_button.xml" value="0.1225" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable/button_bg.xml" value="0.1225" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable/button_bg2.xml" value="0.1225" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable/edit_text_bg2.xml" value="0.1225" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable/ic_launcher_background.xml" value="0.1115" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable/shadow_down.xml" value="0.1115" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/drawable/shadow_right.xml" value="0.1115" />
@@ -16,6 +21,7 @@
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout-v11/directory_chooser.xml" value="0.12916666666666668" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout-v11/item_danh_ngon.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout-v11/progressbar.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/activity_dummy_test.xml" value="0.11145833333333334" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/activity_login.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/ambilwarna_dialog.xml" value="0.264" />
         <entry key="..\:/Users/Huy Cuong/AndroidStudioProjects/UILibAndroid/mylibrary/src/main/res/layout/ambilwarna_pref_widget.xml" value="0.264" />

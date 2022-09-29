@@ -40,6 +40,8 @@ public class DatabaseNgonTinh extends HandleDB {
     }
 
 
+
+
     public List<ModelDanhNgon> getDanhNgon() {
         List<ModelDanhNgon> list = new ArrayList<>();
         openDatabase();

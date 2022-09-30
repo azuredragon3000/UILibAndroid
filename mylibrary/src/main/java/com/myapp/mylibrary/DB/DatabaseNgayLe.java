@@ -12,7 +12,7 @@ import java.util.List;
 public class DatabaseNgayLe extends HandleDB {
 
     private static volatile DatabaseNgayLe INSTANCE;
-    private static final String TABLE_NGAY_LE = "nifiticationDate";
+    private static final String TABLE_NGAY_LE = "nitificationDate";
     private DatabaseNgayLe(Context context, String DB_PATH, String DATABASE_NAME){
         super(context,DB_PATH,DATABASE_NAME);
     }

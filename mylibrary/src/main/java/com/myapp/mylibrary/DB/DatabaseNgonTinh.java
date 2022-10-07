@@ -13,15 +13,7 @@ import java.util.List;
 
 public class DatabaseNgonTinh extends HandleDB {
 
-    private static final String TABLE_CUNG_MANG = "tbl_cung_mang";
-    private static final String TABLE_BOI_PHUONG_DONG = "boi_phuong_dong";
-    private static final String TABLE_BOI_PHUONG_TAY = "boi_phuong_tay";
-    private static final String TABLE_NAM_SINH = "td_tuoi";
-    private static final String TUOI_NAME = "td_tuoi_name";
-    private static final String CONGIAP_ID = "td_congiap_id";
-    private static final String MALE = "td_male";
-    private static final String TABLE_NOI_DUNG = "td_tuoi_noidung";
-    private static final String TUOI_ID = "td_tuoi_id";
+
     private static volatile DatabaseNgonTinh INSTANCE;
     private static final String TABLE_DANH_NGON = "danhngon";
     private DatabaseNgonTinh(Context context, String DB_PATH, String DATABASE_NAME){
@@ -39,9 +31,6 @@ public class DatabaseNgonTinh extends HandleDB {
         return INSTANCE;
     }
 
-
-
-
     public List<ModelDanhNgon> getDanhNgon() {
         List<ModelDanhNgon> list = new ArrayList<>();
         openDatabase();
@@ -57,7 +46,5 @@ public class DatabaseNgonTinh extends HandleDB {
         closeDatabase();
         return list;
     }
-
-
 
 }
